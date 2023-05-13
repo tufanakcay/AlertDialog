@@ -31,6 +31,7 @@ public class MainActivity extends AppCompatActivity {
 
         alert.setTitle("Save");
         alert.setMessage("Are you sure?");
+
         alert.setPositiveButton("Yes", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
